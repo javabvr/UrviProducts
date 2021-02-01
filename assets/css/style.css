@@ -98,6 +98,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+#header #logo h1 a:hover {
+  color: #0384fc;
+}
 #header #logo img {
   padding: 0;
   margin: 0;
@@ -114,11 +117,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-transparent {
-  background: transparent;
+  background: linear-gradient(4deg, #0384fc, #1de099);
 }
 
 #header.header-fixed {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #1de099, #0384fc);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
